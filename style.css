@@ -47,4 +47,8 @@ video {
   body {
     font-size: 40px;
   }
+  .media {
+    flex-direction: column;
+    justify-content: center;
+  }
 }
