@@ -1,0 +1,42 @@
+body {
+  background-color: rgb(14, 103, 145);
+}
+
+.poem {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: Papyrus, fantasy;
+  align-items: center;
+  text-align: center;
+  font-size: 70px;
+  color: rgb(238, 167, 226);
+  background-color: rgb(14, 103, 145);
+}
+
+#test {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+#couple {
+  width: 500px;
+  height: 500px;
+  border-radius: 10%;
+  margin-bottom: 20px;
+}
+
+.media {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+video {
+  border-radius: 10%;
+  outline: none;
+  margin-bottom: 20px;
+}
