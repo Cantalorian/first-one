@@ -1,9 +1,11 @@
 body {
   background-color: rgb(14, 103, 145);
+  border: 0px;
 }
 
 .poem {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   justify-content: center;
   font-family: Papyrus, fantasy;
@@ -15,15 +17,15 @@ body {
 }
 
 #test {
-  width: 500px;
-  height: 500px;
+  width: 475px;
+  height: 475px;
   border-radius: 50%;
   margin-bottom: 20px;
 }
 
 #couple {
-  width: 500px;
-  height: 500px;
+  width: 475px;
+  height: 475px;
   border-radius: 10%;
   margin-bottom: 20px;
 }
@@ -39,4 +41,10 @@ video {
   border-radius: 10%;
   outline: none;
   margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 40px;
+  }
 }
